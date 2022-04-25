@@ -19,7 +19,7 @@ export default function App() {
     show_widget_button: boolean;
   }>();
 
-  // call the fetch function on mount with the id: "123"
+  // call the fetch function on mount with the id
   useEffect(() => {
     async function fetchData() {
       const response = await getRecipeData('11004', 'Widget inApp Testing');
