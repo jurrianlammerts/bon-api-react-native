@@ -38,8 +38,6 @@ export default function App() {
     setLoading(false);
   }, []);
 
-  console.log('recipe: ', recipeData);
-
   const _handlePressButtonAsync = async () => {
     // open the link in a in-app browser
     try {
